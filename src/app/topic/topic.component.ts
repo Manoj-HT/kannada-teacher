@@ -1,0 +1,29 @@
+import { Component, inject, input, signal } from '@angular/core';
+import { KeyboardComponent } from '../keyboard/keyboard.component';
+import { KeyboardService } from '../services/keyboard/keyboard.service';
+import { AudioService } from '../services/audio/audio.service';
+
+@Component({
+  selector: 'topic',
+  imports: [KeyboardComponent],
+  templateUrl: './topic.component.html',
+  styleUrl: './topic.component.scss'
+})
+export class TopicComponent {
+  topicId = input();
+  chapterId = input<number>(0);
+  keyBoardService = inject(KeyboardService)
+  audioService = inject(AudioService)
+  ngOnInit(){
+    console.log(this.topicId());
+    console.log(this.chapterId());
+    // this.audioService.speakKannada("ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?")
+    // this.audioService.speakKannada("Hi How are you")
+  }
+
+
+  addWord(value: string){
+   
+  }
+}
+
