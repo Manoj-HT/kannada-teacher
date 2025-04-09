@@ -59,8 +59,6 @@ export class KeyboardComponent {
   others = signal(["ಯ", "ರ", "ಲ", "ವ", "ಶ", "ಷ", "ಸ", "ಹ", "ಳ"]);
   ngOnInit() {
     const color = this.chapterDetailService.getColor(this.chapterId())
-    console.log(color);
-    
     this.el.nativeElement.style.setProperty('--keyboard-theme', color )
   }
 

@@ -16,7 +16,6 @@ export class RootLayoutComponent {
   route = inject(Router)
 
   handleChapterClick(index: number, event: Event){
-    console.log("hello  ")
     this.updateableIndex = index
     const div = event.target as HTMLDivElement
     setTimeout(() => {
