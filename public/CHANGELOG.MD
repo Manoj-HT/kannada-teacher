@@ -1,3 +1,8 @@
+# 1.0.0
+
+1. setup firebase
+2. for versioning purpose moved changelog back
+
 # 0.0.2
 
 1. Changelog moved out for visibility

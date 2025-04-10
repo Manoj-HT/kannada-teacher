@@ -23,7 +23,7 @@ export class TopicComponent {
 
 
   addWord(value: string){
-   
+   console.log(value);
   }
 
   goBack(){
