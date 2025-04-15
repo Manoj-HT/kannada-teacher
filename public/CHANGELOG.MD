@@ -1,3 +1,7 @@
+# 1.0.2
+
+1. Project scope changed to admin tool for content authoring for hello-kannada
+
 # 1.0.0
 
 1. setup firebase

@@ -1,41 +1,27 @@
-# 📘 Kannada Teacher – A Progressive Web App for Everyone
+# Kannada Teacher (Admin Tool)
 
-**Kannada Teacher** is an open-source, mobile-first web app designed to help non-Kannada speakers learn Kannada through English. Built with ❤️ in Angular, this app is optimized for offline use, respects user privacy, and requires **no sign-in**. All user data is stored locally on their device, making it a safe, fast, and convenient experience.
+    ## Overview
 
-## 🌟 Why This Exists
+        Kannada Teacher is a local-only Angular-based admin tool used to create and manage content for the main app, Hello Kannada — an educational platform that teaches Kannada.
+        This tool is not meant to be hosted or accessed publicly. It runs locally and generates JSON files that serve as the core data source for Hello Kannada.
 
-This project is born out of good will. Kannada is a beautiful language spoken by millions, but many who live or travel in Karnataka struggle to pick it up due to a lack of accessible, simple, and friendly learning tools. This app aims to change that – **by making Kannada learning easy, free, and open to everyone.**
+    ## Purpose
+        This app is built to:
 
-Whether you're a student, a migrant worker, a tourist, or just curious – this is for you.
+            - Create structured lesson content
 
-## 🚀 Features
+            - Edit or manage existing Kannada learning modules
 
-- ✅ **No Sign-In Required** – Zero friction. Privacy-respecting.
-- 📲 **PWA-Ready** – Install it or use it straight from the browser.
-- 📱 **Mobile-First Design** – Built to feel native on smartphones.
-- 📤 **Offline-First** – Works seamlessly even without internet.
-- 📚 **English-to-Kannada Learning** – Simple, bite-sized lessons.
-- 💾 **Local Storage** – Your progress stays on your device.
-- 🤝 **Open Source** – Contributions welcome!
+            - Export lesson data in JSON format
 
-## 🧠 Tech Stack
+            - Maintain content consistency across Hello Kannada
 
-- **Frontend**: Angular
-- **Design**: Mobile-first, responsive
-- **PWA**: Service workers + manifest for installability and offline
-- **Storage**: LocalStorage / IndexedDB (privacy-friendly, no backend)
+    ##Key Features
 
-## Where to access
-Project under development phase. 
-```
-https://kannada-teacher.web.app
-```
-## For devs
+        - Content Editor: Easily input words, phrases, translations, and lesson metadata
 
-Clone the repo and run it locally:
-```bash
-git clone https://github.com/Manoj-HT/learn-kannada.git
-cd kannada-teacher
-npm install
-ng serve
-```
+        - JSON Generator: Outputs clean, structured JSONs ready for consumption by the main app
+
+        - Local-First: Everything runs on your machine; no deployment or server required
+
+        - Simple UI: Focused, minimal interface for speed and clarity
